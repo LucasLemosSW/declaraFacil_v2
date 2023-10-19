@@ -90,11 +90,11 @@ create table notacorretagemativo
 # ALTER TABLE ativo ADD FOREIGN KEY (codigo_nota_corretagem_ativo) REFERENCES notacorretagemativo(codigo_nota_corretagem_ativo);
 
 
--- ******************************************-----------------------------------****************************
+-- ******************************************---------------teste--------------------**************************** 
 
 
 -- create table ativo
--- (
+-- ( 
 --     ticker varchar(20) primary key not null,
 --     quantidadeEmCarteira int not null,
 --     precoMedio float not null,
