@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>br.edu.ifsul.cstsi</groupId>
-    <artifactId>aulas_tads_2023_2</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>aulas_tads_2023_2</name>
-    <description>aulas_tads_2023_2</description>
+    <artifactId>declara_facil_v2</artifactId>
+    <version>0.1.0</version>
+    <name>declara_facil_v2</name>
+    <description>declara_facil_v2</description>
     <properties>
         <java.version>17</java.version>
     </properties>
