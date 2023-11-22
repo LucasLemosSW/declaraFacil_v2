@@ -12,7 +12,15 @@ public class DarfService {
     @Autowired
     private DarfRepository rep;
 
-    public List<DarfDTO> getAtivos() {
+    public List<DarfDTO> getDarfs() {
         return rep.findAll().stream().map(DarfDTO::create).collect(Collectors.toList());
+    }
+
+    public List<DarfDTO> getDarfsByUser(Integer CodUser) {
+        return rep.findByCodUsuario(CodUser).stream().map(DarfDTO::create).collect(Collectors.toList());
+    }
+
+    public Darf getDarfsByCodDarf(Integer codDarf) {
+        return rep.findByCodDarf(codDarf);
     }
 }

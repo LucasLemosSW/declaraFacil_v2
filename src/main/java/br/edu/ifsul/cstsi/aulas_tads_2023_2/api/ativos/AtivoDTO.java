@@ -8,11 +8,13 @@ import java.sql.Timestamp;
 @Data
 public class AtivoDTO {
 
-    private Long ticker;
-    private int quantidadeEmCarteira;
-    private float precoMedio;
-    private Timestamp mesEntradaNaCarteira;
-    private int codigoNotaCorretagemAtivo;
+    private Long codAtivo;
+    private String ticker;
+    private Double precoMedio;
+    private Integer quantidade;
+    private String tipoOperacao;
+    private Timestamp dataOperacao;
+    private Integer codUsuario;
 
     public static AtivoDTO create(Ativo ativo){
         ModelMapper modelMapper = new ModelMapper();
